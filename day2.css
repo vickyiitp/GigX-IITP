@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+/*header*/
+ header{
+    background-color: rgba(217, 248, 17, 0.729);
+    width: 100%;
+ }
+
+header div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 20px;
+    border: 2px dotted red;
+    border-radius: 12px;
+}
+
+.container {
+    background-color: royalblue;
+    max-width: 600px;
+    width: 40%;
+    align-items: start;
+}
+
+.background {
+    background-color: rgba(207, 220, 20, 0.641);
+    /* position: absolute;
+    top: 10%; */
+
+}
+#story {
+    padding: 2px;
+    margin: 5px;
+    background-color: transparent;
+    color: black;
+    text-decoration: dotted underline;
+    font-size: larger;
+}
+/*main*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: rgba(217, 248, 17, 0.729);
+}
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 12px ;
+    border: 2px dashed wheat;
+    margin: 5px auto;
+    padding: 2px;
+    background-color: transparent;
+    
+}
+figure {
+    border: 20px solid pink;
+    justify-self: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: larger;
+    color: green;
+    background-color: transparent;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+p{
+    background-color: transparent;
+}
