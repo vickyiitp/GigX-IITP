@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.header {
+    width: 100%;
+    background-color: red;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.nav {
+    background-color: rgb(14, 216, 238);
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+.main {
+    display: flex;
+    box-sizing: border-box;
+
+}
+.oneside{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 49%;
+}
+.section {
+    background-color: rgb(233, 190, 52);
+    height: 45px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.article {
+    background-color: rgb(255, 174, 0);
+    height: 45px;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px 0;
+}
+.aside{
+    background-color: rgb(242, 91, 227);
+    height: 94px;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 35px 0;
+}
+.footer {
+    background-color: rgb(136, 129, 129);
+    border: 1px solid black;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
